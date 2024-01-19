@@ -32,8 +32,8 @@ SRC				=	$(addprefix $(DIR_SRC),$(LIST_SRC))
 
 # ------------ COMPILATION ------------ #
 
-CPPFLAGS		=	 -std=c++98 -g
-
+CPPFLAGS		=	 -Wall -Wextra -Werror -std=c++98 -g
+CXX				=	c++
 DEP_FLAGS		=	-MMD -MP
 
 # -------------  COMMANDS ------------- #
